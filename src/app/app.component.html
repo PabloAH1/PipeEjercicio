@@ -1,0 +1,8 @@
+<h1>Escriba un texto</h1>
+<input type="text" name="texto" placeholder="escribe texto"
+        class="form-control" [(ngModel)]="palabra">
+        <input type="number" name="cifrado" placeholder="cifrado"
+         [(ngModel)]="cifrado">
+<h2>{{palabra | capitalizar}}</h2>
+<h2>{{palabra | letraNumero}}
+<!--<h2>{{palabra | letraNumero:cifrado}}</h2>-->
